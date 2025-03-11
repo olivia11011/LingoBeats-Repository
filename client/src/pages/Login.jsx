@@ -38,7 +38,7 @@ export default function Login() {
         </form>
         <div className="text-center mt-4">
           <Link to="/signup" className="text-blue-500 hover:underline">
-            Sign up
+            Signup
           </Link>
           <span className="mx-2">|</span>
           <Link to="/dashboard" className="text-blue-500 hover:underline">
