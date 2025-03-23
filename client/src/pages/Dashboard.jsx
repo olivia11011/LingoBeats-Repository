@@ -3,25 +3,115 @@ import { Link } from "react-router-dom";
 export default function Dashboard() {
   const songLists = {
     easy: [
-      { title: "Song 1", artist: "Artist 1", length: "3:15", score: 95 },
-      { title: "Song 2", artist: "Artist 2", length: "2:45", score: 88 },
-      { title: "Song 3", artist: "Artist 3", length: "2:30", score: 92 },
-      { title: "Song 4", artist: "Artist 4", length: "3:00", score: 85 },
-      { title: "Song 5", artist: "Artist 5", length: "2:50", score: 90 },
+      {
+        title: "Caballito Blanco",
+        artist: "Joel Valle",
+        length: "1:14",
+        score: 95,
+        path: "/caballito_blanco.mp4",
+      },
+      {
+        title: "Song 2",
+        artist: "Artist 2",
+        length: "2:45",
+        score: 88,
+        path: "",
+      },
+      {
+        title: "Song 3",
+        artist: "Artist 3",
+        length: "2:30",
+        score: 92,
+        path: "",
+      },
+      {
+        title: "Song 4",
+        artist: "Artist 4",
+        length: "3:00",
+        score: 85,
+        path: "",
+      },
+      {
+        title: "Song 5",
+        artist: "Artist 5",
+        length: "2:50",
+        score: 90,
+        path: "",
+      },
     ],
     medium: [
-      { title: "Song 1", artist: "Artist 1", length: "4:20", score: 82 },
-      { title: "Song 2", artist: "Artist 2", length: "3:55", score: 76 },
-      { title: "Song 3", artist: "Artist 3", length: "4:00", score: 80 },
-      { title: "Song 4", artist: "Artist 4", length: "3:45", score: 78 },
-      { title: "Song 5", artist: "Artist 5", length: "4:10", score: 85 },
+      {
+        title: "Song 1",
+        artist: "Artist 1",
+        length: "4:20",
+        score: 82,
+        path: "",
+      },
+      {
+        title: "Song 2",
+        artist: "Artist 2",
+        length: "3:55",
+        score: 76,
+        path: "",
+      },
+      {
+        title: "Song 3",
+        artist: "Artist 3",
+        length: "4:00",
+        score: 80,
+        path: "",
+      },
+      {
+        title: "Song 4",
+        artist: "Artist 4",
+        length: "3:45",
+        score: 78,
+        path: "",
+      },
+      {
+        title: "Song 5",
+        artist: "Artist 5",
+        length: "4:10",
+        score: 85,
+        path: "",
+      },
     ],
     hard: [
-      { title: "Song 1", artist: "Artist 1", length: "5:10", score: 65 },
-      { title: "Song 2", artist: "Artist 2", length: "4:45", score: 70 },
-      { title: "Song 3", artist: "Artist 3", length: "5:30", score: 68 },
-      { title: "Song 4", artist: "Artist 4", length: "4:55", score: 72 },
-      { title: "Song 5", artist: "Artist 5", length: "5:20", score: 66 },
+      {
+        title: "Song 1",
+        artist: "Artist 1",
+        length: "5:10",
+        score: 65,
+        path: "",
+      },
+      {
+        title: "Song 2",
+        artist: "Artist 2",
+        length: "4:45",
+        score: 70,
+        path: "",
+      },
+      {
+        title: "Song 3",
+        artist: "Artist 3",
+        length: "5:30",
+        score: 68,
+        path: "",
+      },
+      {
+        title: "Song 4",
+        artist: "Artist 4",
+        length: "4:55",
+        score: 72,
+        path: "",
+      },
+      {
+        title: "Song 5",
+        artist: "Artist 5",
+        length: "5:20",
+        score: 66,
+        path: "",
+      },
     ],
   };
 
@@ -139,22 +229,19 @@ export default function Dashboard() {
 function SongCard({ song }) {
   const isCompleted = song.score >= 90;
 
-  const handleSongClick = () => {
-    console.log(`Clicked ${song.title} - Start quiz!`);
-  };
-
   return (
     <div
       className={`p-4 rounded-lg shadow-lg ${
         isCompleted ? "bg-green-100" : "bg-gray-100"
       }`}
     >
-      <button
-        onClick={handleSongClick}
+      <Link
+        to="/musicplayer"
+        state={song}
         className="w-full text-left font-bold text-gray-800 hover:underline focus:outline-none"
       >
         {song.title}
-      </button>
+      </Link>
       <p className="text-sm italic text-gray-600">{song.artist}</p>
       <p className="text-sm text-gray-600">{song.length}</p>
       <p className="text-sm text-gray-600">Score: {song.score}%</p>
