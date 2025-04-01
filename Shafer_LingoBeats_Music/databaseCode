@@ -1,0 +1,13 @@
+CREATE DATABASE SongsDB;
+USE SongsDB;
+
+CREATE TABLE Songs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    mp4_link VARCHAR(500) NOT NULL
+);
+
+-- Example Insert
+INSERT INTO Songs (title, mp4_link) VALUES
+('Song A', 'https://example.com/songA.mp4'),
+('Song B', 'https://example.com/songB.mp4');
