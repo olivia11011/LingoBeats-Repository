@@ -15,8 +15,8 @@ Audio File: ../Franecki_LingoBeats_Music/Un Elefante Se Balanceaba - Spanish Nur
 Video File: ?dummy:23.976000:40000:1280:720:216:216:216:
 Video AR Value: 1.777778
 Video Zoom Percent: 1.250000
-Active Line: 3
-Video Position: 340
+Active Line: 2
+Video Position: 355
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -24,8 +24,8 @@ Style: Default,Arial,48,&H00FFFFFF,&H4FFFFFFF,&H00000000,&H00000000,0,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:09.16,Default,,0,0,0,, {\pos(640, 520)}"Un Elefante Se Balanceaba"\N"One Elephant was Balancing"\N\NRecording: Appuseries\NMelody: \NLyrics: \NImage Designed By brgfx / Freepik
-Dialogue: 0,0:00:09.90,0:00:12.00,Default,,0,0,0,,{\an5\pos(640,360)\p1\c&HFFFFFF&}m 0 0 l 5 0 l 5 650 l 0 650\N
-Dialogue: 0,0:00:09.90,0:01:13.86,Default,,0,0,0,,{\k38}{\pos(318,602.555)}Un{\k82} elephante{\k404}\Nsobre {\k42}la tela de un araña{\k76}{\k184}\NLlévame {\k32}hasta {\k26}el {\k122}pueblo {\k90}donde{\k58}\Nyo {\k154}nací.{\k88}Tengo, {\k82}tengo, {\k110}tengo,{\k68}\Ntú {\k54}no {\k70}tienes {\k126}nada{\k88}\NTengo {\k48}tres {\k166}ovejas{\k50}\Nen {\k90}una {\k110}cabaña.{\k126}\NUna {\k36}me {\k48}da {\k136}leche,{\k92}\Notra {\k40}me {\k36}da {\k140}lana,{\k88}\Notra {\k188}mantequilla,{\k92}\Npara {\k64}la {\k2642}semana.{\k210}
-Dialogue: 0,0:00:09.90,0:01:13.86,Default,,0,0,0,,{\k42}{\pos(967,604.555)}{\pos(318,602.555)}One{\k358} elephant{\k124}\Ncarry me {\k42}away {\k76}from here{\k184}\NCarry me {\k32}to {\k26}the {\k122}town {\k90}where{\k58}\NI {\k154}was born.{\k88}I have, {\k82}I have, {\k110}I have,{\k68}\NYou {\k54}don't {\k70}have {\k126}anything{\k88}\NI have {\k48}three {\k166}sheep{\k50}\Nin {\k90}a {\k110}cabin.{\k126}\NOne {\k36}gives {\k48}me {\k136}milk,{\k92}\Nanother {\k40}gives {\k36}me {\k140}wool,{\k88}\Nanother {\k188}butter,{\k92}\Nfor {\k64}the {\k2642}week.{\k210}
+Dialogue: 0,0:00:00.00,0:00:09.16,Default,,0,0,0,, {\pos(640, 520)}"Un Elefante Se Balanceaba"\N"One Elephant Balanced on a Spider's Web"\N\NRecording: Appuseries\NMelody: \NLyrics: \NImage Designed By brgfx / Freepik
+Dialogue: 0,0:00:09.90,0:00:12.00,Default,,0,0,0,,{\k210}{\an5\pos(640,360)\p1\c&HFFFFFF&}m 0 0 l 5 0 l 5 650 l 0 650\N
+Dialogue: 0,0:00:09.90,0:01:13.86,Default,,0,0,0,,{\k38}{\pos(318,602.555)}Un{\k78} elephante{\k23}\Nse balanceaba sobre {\k71}\Nla tela de un araña, {\k304}como veía {\k352}{\k122} {\k90}{\k58}\Nque resistía, fue a llamar {\k154}{\k88}{\k82}{\k110}{\k68}\Na otro {\k54}elephante. {\k70} {\k126}{\k88}\NDos {\k48}elephantes {\k166}se balanceaban{\k50}\Nsobre {\k90}la tela de una araña {\k110}{\k126}\Ncomo {\k36}veían{\k48}que {\k136}resistía,{\k92}\Nfueron{\k40}me {\k36}a llama {\k140}{\k88}\Na otro elephante.{\k188}{\k92}\N {\k64}{\k2642}{\k228}
+Dialogue: 0,0:00:09.90,0:01:13.86,Default,,0,0,0,,{\k42}{\pos(967,604.555)}{\pos(318,602.555)}One{\k68} elephant{\k30}\Nbalanced on{\k90} \Na spider's web, {\k316}As he saw {\k320}{\k122}{\k90}{\k58}\N{\k154}that he was resisting, {\k88}he went{\k82}{\k110}{\k68}\Nto call {\k54}another {\k70}elephant {\k126}\NTwo elephants {\k48}balanced {\k166}{\k50}\Non {\k90}a spider's web {\k110}{\k126}\NAs they saw that he was resisting, {\k36} {\k48} {\k136}{\k92}\Nthey went {\k40}to call {\k36} {\k140}{\k88}\Nanother {\k188}elephant.{\k92}\N {\k64} {\k2642}{\k316}
 Dialogue: 0,0:01:13.86,0:01:16.86,Default,,0,0,0,,
